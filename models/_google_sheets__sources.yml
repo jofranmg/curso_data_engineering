@@ -10,11 +10,11 @@ sources:
       identifier: false
     freshness:
       warn_after:
-        count: 24
-        period: hour
+        count: 1000
+        period: day
       error_after:
-        count: 48
-        period: hour
+        count: 1000
+        period: day
     tables:
       - name: budget
         loaded_at_field: _fivetran_synced
